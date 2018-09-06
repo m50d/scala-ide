@@ -76,6 +76,17 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <!-- configuration of the scala compiler -->
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>default-compile</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 </project>

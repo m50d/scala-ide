@@ -116,6 +116,7 @@
         <artifactId>scala-maven-plugin</artifactId>
         <executions>
           <execution>
+            <id>default-compile</id>
             <goals>
               <goal>compile</goal>
             </goals>
